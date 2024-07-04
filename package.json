@@ -1,0 +1,35 @@
+{
+  "name": "vue-kip-text",
+  "version": "1.1.0",
+  "description": "",
+  "main": "dist/vue-kip-text.es.js",
+  "module": "dist/vue-kip-text.umd.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-kip-text.umd.js",
+      "require": "./dist/vue-kip-text.es.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build",
+    "dev": "vite",
+    "lint": "eslint src --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^3.4.31"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "babel-eslint": "^10.1.0",
+    "vite": "^5.3.3"
+  }
+}
