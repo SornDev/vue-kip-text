@@ -2,6 +2,8 @@
 
 `vue-kip-text` is a Vue 3 component library for converting numbers to Lao Kip text representation.
 
+ເປັນ Package ສຳລັບແປງໂຕເລກ ເປັນຕົວໜັງສືຈຳນວນເງິນ ທີ່ເປັນພາສາລາວ
+
 ພັດທະນາໂດຍ: SornDev
 
 ## Table of Contents
@@ -11,7 +13,7 @@
 - [API](#api)
 - [License](#license)
 
-## Installation
+## Installation (ວິທີການຕິດຕັ້ງ)
 
 Install the package via npm:
 
@@ -19,7 +21,7 @@ Install the package via npm:
 npm install vue-kip-text
 ```
 
-## Usage
+## Usage (ວິທີການລົງທະບຽນນຳໃຊ້ໃນ VueJS)
 First, import the vue-kip-text component into your Vue application:
 
 ```bash
@@ -34,7 +36,7 @@ app.component('KipText', KipText);
 app.mount('#app');
 ```
 
-Then, use the KipText component in your Vue template:
+Then, use the KipText component in your Vue template: (ສາມາດດຶງມາໃຊ້ໄດ້ແບບນີ້)
 
 ```bash
 <template>
@@ -54,7 +56,7 @@ export default {
 </script>
 ```
 
-## API
+## API 
 
 Props
 number (Number, required): The number to be converted to Lao Kip text.
