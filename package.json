@@ -1,6 +1,6 @@
 {
   "name": "vue-kip-text",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "",
   "main": "dist/vue-kip-text.es.js",
   "module": "dist/vue-kip-text.umd.js",
